@@ -1,0 +1,112 @@
+.container {
+    background-color: whitesmoke;
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content_blocks {
+    width: 900px;
+    padding: 10px;
+    display: flex;
+}
+
+.column1 {
+    margin: 10px;
+    flex: 2;
+}
+
+.column2 {
+    margin: 10px;
+    flex: 1;
+}
+
+.content_squares {
+    padding: 10px;
+    background-color: white;
+    border: double;
+    margin-bottom: 10px;
+}
+
+#profile_info {
+    border-top-style: solid;
+    border-top-width: 50px;
+    border-top-color: teal;
+}
+
+.profile_header {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#paige {
+    width: 100px;
+    border: 3px solid grey;
+    border-radius: 100%;
+}
+
+#gear_mapmarker {
+    width: 15px;
+}
+
+/* .new_connections {
+    background-color: whitesmoke;
+}
+
+.your_connections {
+    background-color: whitesmoke;
+}
+
+.profile_info {
+
+    background-color: whitesmoke;
+}
+
+.education {
+    background-color: whitesmoke;
+} */
+
+.nav {
+    width: 900px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-title {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-links {
+    display: flex;
+    padding: 3px 0px;
+    width: 50%;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.active {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    align-items: flex-end;
+    background-color: teal;
+    color: white;
+    border-color: black;
+    box-shadow: 3px 3px black;
+}
