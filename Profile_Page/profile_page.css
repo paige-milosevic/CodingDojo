@@ -1,6 +1,6 @@
 .container {
     background-color: whitesmoke;
-    width: 900px;
+    /* width: 900px; */
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -10,7 +10,7 @@
 
 .content_blocks {
     width: 900px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .profile_header {
-    height: 50px;
+    height: 75px;
     margin: 0px;
     background-color: teal;
 }
@@ -78,7 +78,9 @@
     background-color: white;
     border: 3px solid grey;
     margin-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-right: 5px;
 }
 
@@ -103,21 +105,33 @@
 
 .connections_photos {
     margin-right: 5px;
-    width: 50px;
+    width: 45px;
     border: 3px solid grey;
     border-radius: 100%;  
 }
 
 .view_more {
+    height: 40px;
+    display: flex;
+    align-items: center;
     background-color: white;
+    font-family: "Roboto";
     border-top: 0px; 
-    border: 3px solid grey;
+    border-bottom: 3px solid grey;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
     margin-bottom: 10px;
     padding-left: 20px;
 }
 
+#educaion_info {
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    line-height: 0px;
+}
 
 #info {
+    padding-top: 50px;
     margin-bottom: 10px;
     font-family: 'Roboto';
     line-height: 0px;
@@ -147,19 +161,33 @@
     font-family: 'Roboto';
 }
 
+#ed_bio {
+    margin: 0px;
+    font-family: "Roboto";
+}
+
 #dates {
     color: grey;
 }
 
 h4 {
     font-weight: bold;
+    margin: 0px;
+}
+
+h5 {
+    margin: 0px;
+}
+
+
+.profile_photo {
+    padding: 25px;
 }
 
 #jane {
     width: 100px;
     border: 3px solid grey;
     border-radius: 100%;
-    margin:auto;  
 }
 
 #gear_mapmarker {
@@ -167,8 +195,10 @@ h4 {
     margin: 5px;
 }
 
-#your_connections {
+.your_connections {
     margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* Navigation div */
@@ -180,7 +210,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
 }
 
 .nav-title {
@@ -189,7 +219,7 @@ h4 {
     margin-right: 10px;
 }
 
-.nav-links {
+.nav_links {
     display: flex;
     padding: 3px 0px;
     width: 50%;
@@ -203,14 +233,14 @@ h4 {
     width: 75%;
 }
 
-a {
+.link {
     color: white;
     text-decoration: none;
     font-family: 'Roboto';
 }
 
 
-.active {
+#active {
     font-weight: bold;
 }
 
