@@ -70,6 +70,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 3px;
+    margin-bottom: 3px;
     align-items: center;
     font-family: 'Roboto';
 }
@@ -95,6 +97,8 @@
 .existing_connections {
     display: flex;
     align-items: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .acceptclose_circle {

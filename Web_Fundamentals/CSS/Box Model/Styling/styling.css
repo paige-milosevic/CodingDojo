@@ -1,0 +1,24 @@
+h1 {
+    font-family: cursive;
+    font-weight: bold;
+    color:aqua;
+    background-color: black;
+}
+
+h2 {
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    background-color: rebeccapurple;
+}
+
+h3 {
+    font-family: cursive;
+    text-align: right;
+    background-color: lightblue;
+}
+
+#my {
+    color: white;
+}

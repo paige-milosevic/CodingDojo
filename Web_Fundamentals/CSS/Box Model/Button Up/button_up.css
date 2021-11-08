@@ -1,0 +1,28 @@
+
+
+#search {
+    width: 150px;
+    color: turquoise;
+    font-weight: bold;
+    border: 2px solid turquoise;
+    border-radius: 12px;
+    background-color: ghostwhite;
+}
+
+
+
+#add {
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid turquoise;
+    border-radius: 50%;
+    padding: 32x 16px;
+    color: white;
+    background-color: turquoise;
+}
+
+#create_account {
+    color: white;
+    background-color: royalblue;
+    box-shadow: 2px 2px 1px black;
+}

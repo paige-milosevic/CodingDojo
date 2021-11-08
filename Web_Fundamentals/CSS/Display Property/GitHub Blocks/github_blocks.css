@@ -1,0 +1,42 @@
+.container {
+    width: 900px;
+    padding: 20px;
+    background-color: lightgray;
+    margin: 0px auto;
+}
+
+.image {
+    width: 200px;
+}
+
+.block1 {
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: burlywood;
+}
+
+.block2 {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block3 {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading {
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
