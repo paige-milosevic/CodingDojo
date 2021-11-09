@@ -1,9 +1,67 @@
 .container {
     background-color: whitesmoke;
-    /* width: 900px; */
+    width: 80%;
+    margin: 0 auto;
     height: auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+/* Navigation div */
+
+.nav {
+    width: 900px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.nav-title {
+    color: white;
+    font-family: 'Roboto';
+    margin-right: 10px;
+}
+
+.nav_links {
+    display: flex;
+    padding: 3px 0px;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.nav_title_links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 75%;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+
+#active {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    font-family: 'Roboto';
+    background-color: teal;
+    color: white;
+    border-color: black;
+    box-shadow: 3px 3px black;
 }
 
 /* Content Blocks Div */
@@ -14,6 +72,8 @@
     display: flex;
 }
 
+/* Column 1 */
+
 .column1 {
     margin: 10px;
     flex: 2;
@@ -23,6 +83,38 @@
     height: 75px;
     margin: 0px;
     background-color: teal;
+}
+
+
+.profile_photo {
+    padding: 25px;
+}
+
+.content_squares {
+    background-color: white;
+    border: 3px solid grey;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.gear_mapmarker {
+    width: 15px;
+    margin: 5px;
+}
+
+#edit_profile {
+    display: flex;
+    align-items: center;
+    color: blue;
 }
 
 .column2 {
@@ -147,12 +239,6 @@
     color: blue;
 }
 
-.location {
-    display: flex;
-    align-items: center;
-    color: black;
-}
-
 .education_header {
     height: 40px;
     display: flex;
@@ -183,20 +269,10 @@ h5 {
     margin: 0px;
 }
 
-
-.profile_photo {
-    padding: 25px;
-}
-
 #jane {
     width: 100px;
     border: 3px solid grey;
     border-radius: 100%;
-}
-
-.gear_mapmarker {
-    width: 15px;
-    margin: 5px;
 }
 
 .your_connections {
@@ -205,59 +281,3 @@ h5 {
     padding-bottom: 5px;
 }
 
-/* Navigation div */
-
-.nav {
-    width: 900px;
-    height: 50px;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px;
-}
-
-.nav-title {
-    color: white;
-    font-family: 'Roboto';
-    margin-right: 10px;
-}
-
-.nav_links {
-    display: flex;
-    padding: 3px 0px;
-    width: 50%;
-    justify-content: space-around;
-}
-
-.nav_title_links {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 75%;
-}
-
-.link {
-    color: white;
-    text-decoration: none;
-    font-family: 'Roboto';
-}
-
-
-#active {
-    font-weight: bold;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.btn {
-    width: 100px;
-    height: 30px;
-    font-family: 'Roboto';
-    background-color: teal;
-    color: white;
-    border-color: black;
-    box-shadow: 3px 3px black;
-}
