@@ -40,6 +40,10 @@ main {
     margin-right: 5px;
 }
 
+.ninja p {
+    font-style: italic;
+}
+
 .ninja span {
     font-style: italic;
 }
@@ -60,7 +64,8 @@ main {
 }
 
 .dictionary-def {
-    align-content: center;
+    flex: 2;
+    align-items: center;
 }
 
 .dictionary-card {
@@ -70,7 +75,6 @@ main {
     border: 3px solid black;
     padding: 15px;
     text-align: center;
-
 }
 
 .dojonary-card {
@@ -103,6 +107,11 @@ main {
 
 .dojonary {
     align-items: center;
+    flex-direction: column;
+}
+
+p {
+    
 }
 
 h1 {

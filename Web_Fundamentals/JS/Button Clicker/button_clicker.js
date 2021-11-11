@@ -7,3 +7,7 @@ function removeDefinition(element) {
     element.remove();
     console.log("Paige");
 }
+
+function liked() {
+
+}
