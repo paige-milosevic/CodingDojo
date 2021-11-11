@@ -5,23 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="button_clicker.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Dojonary</title>
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
-            <h1>Dojonary</h1>
-            <button>Login</button>
-        </div>
-        <div class="main_content">
-            <div class="column1">
-
+    <header class="container">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search..">
+        <button onclick="logout(this)">Login</button>
+    </header>
+    <main class="flex container">
+        <div class="column1">
+            <div class="flex dictionary-card">
+                <div class="ninja">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <h3>Plural:</h3><span>ninjas</span>
+                    <button class="like">13 Likes</button>
+                </div>
+                <div class="dictionary-def">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
             </div>
-            <div class="column2">
-
+            <div class="flex dictionary-card">
+                <div class="ninja">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <h3>Plural:</h3><span>ninjas</span>
+                    <button class="like">37 Likes</button>
+                </div>
+                <div class="dictionary-def">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus.</p>
+                </div>
             </div>
         </div>
-
-    </div>
+        <div class="column2">
+            <div class="flex dojonary-card">
+                <div class="dojonary">
+                    <h2>Dojonary is defined by <strong>YOU</strong> </h2>
+                    <button id="add-definition" onclick="removeDefinition(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="button_clicker.js"></script>
 </body>
 </html>

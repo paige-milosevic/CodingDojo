@@ -1,3 +1,125 @@
-.navbar {
+* {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
     display: flex;
+    background-color: lightgray;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+header input {
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+header button {
+    width: 10%;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black;
+}
+
+main {
+    justify-content: space-between;
+}
+
+.ninja h3 {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.ninja span {
+    font-style: italic;
+}
+
+.ninja {
+    flex: 1;
+    margin-right: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.column1 {
+    flex: 2;
+}
+
+.column2 {
+    flex: 1
+}
+
+.dictionary-def {
+    align-content: center;
+}
+
+.dictionary-card {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: black;
+    border: 3px solid black;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.dojonary-card {
+    margin-top: 20px;
+    color: black;
+    border: 3px solid black;
+    padding: 15px;
+    
+}
+
+.like {
+    width: 100px;
+    padding: 5px;
+    background-color: gold;
+    border: 3px solid black;
+    color: black;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#add-definition {
+    width: 200px;
+    background-color: seagreen;
+    border: 3px solid black;
+    color: black;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.dojonary {
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;    
+}
+
+/* Tools */
+
+.flex {
+    display: flex;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
 }
