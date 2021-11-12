@@ -1,0 +1,39 @@
+
+* {
+    font-family: "Roboto";
+}
+
+body {
+    padding: 20px;
+    width: 80%;
+}
+
+.container {
+    padding: 10px;
+    border: 3px solid black;
+    flex-direction: column;
+    width: 45%;
+}
+
+.like-bar {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.like-button {
+    align-items: center;
+
+}
+
+button {
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black;
+    background-color: gold;
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+}
